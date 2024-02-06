@@ -1,0 +1,146 @@
+:root {
+    --color-default: #212529;
+    --color-primary: #121ece;
+    --color-secondary: #22abe2;
+    --color-hover:#416cb3;
+}
+
+.img-style-hero{
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #4b4f53;
+}
+
+.img-style-hero{
+    border-radius: 10px;
+}
+
+.card-style{
+    border-radius: 10px !important;
+    border: 3px solid var(--color-primary) !important;
+}
+
+.color1{
+    color: var(--color-primary) !important;
+}
+.color2{
+    color: var(--color-secondary) !important;
+}
+.color3{
+    color: var(--color-default) !important;
+}
+.color4{
+    color: var(--color-hover) !important;
+}
+
+
+
+/*-------- 1200 --------*/
+@media (min-width:1200px) {
+    .img-heroFIX{
+        
+        width: 50%;
+    }
+}
+/* ----------------------------------- */
+
+section#secound
+{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 30px;
+    margin-bottom: 100px;
+}
+
+section#secound .advice{
+    background-color: #e4f0f4;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 20px 0px 20px;
+    border-radius: 25px;
+    border: 3px solid var(--color-primary);
+    line-height: 2;
+    color: var(--color-default);
+}
+
+section#secound .advice i{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 25%;
+    font-size: 70px !important;
+    color: var(--color-primary);
+}
+
+/* --------2 RESPONSEV start */
+
+@media (max-width: 450px) {
+    /*--------------HEADER-----------------*/
+
+    .header .logo h1 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #000;
+        margin: 0;
+        font-family: var(--font-secondary);
+    }
+
+    /*-------------------------------*/
+    
+section#secound .advice{
+    font-size: 20px;
+    padding: 120px 20px 0px 20px;
+}
+
+section#secound .advice i{
+    top: 15%;
+    font-size: 80px;
+}
+}
+
+@media (min-width:451px) and (max-width: 767px) {
+
+section#secound .advice{
+    font-size: 25px;
+    padding: 100px 20px 0px 20px;
+}
+
+section#secound .advice i{
+    top: 13%;
+    font-size: 85px;
+}
+
+}
+
+
+@media (min-width:768px) and (max-width: 991px) {
+
+    section#secound .advice{
+        font-size: 27px;
+        padding: 100px 20px 0px 20px;
+    }
+    
+    section#secound .advice i{
+        top: 15%;
+        font-size: 90px;
+    }
+
+}
+
+
+@media (min-width:992px) and (max-width: 1199px) {
+    
+     /*----------------------------------*/
+        /*----------------------------------*/
+        /*----------------------------------*/
+    
+        section#secound .advice{
+            font-size: 28px;
+            padding: 100px 20px 0px 20px;
+        }
+        
+        section#secound .advice i{
+            top: 17%;
+            font-size: 95px;
+        }
+}
