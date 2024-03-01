@@ -1900,8 +1900,8 @@ url("./fonts/bootstrap-icons.woff?2820a3852bdb9a5832199cc61cec4e65") format("wof
 .bi-ev-front-fill::before { content: "\f880"; }
 .bi-ev-front::before { content: "\f881"; }
 .bi-globe-americas::before { content: "\f882"; }
-.bi-globe-asia-australia::before { content: "\f883"; }
-.bi-globe-central-south-asia::before { content: "\f884"; }
+.bi-globe- Asia-australia::before { content: "\f883"; }
+.bi-globe-central-south- Asia::before { content: "\f884"; }
 .bi-globe-europe-africa::before { content: "\f885"; }
 .bi-house-add-fill::before { content: "\f886"; }
 .bi-house-add::before { content: "\f887"; }
