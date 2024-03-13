@@ -87,9 +87,16 @@
 .content p{
     width: 100%;
     height: 55%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
 }
+
+.content b{
+    text-align: left;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
 .content a.go{
     width: fit-content;
     height: 15%;
@@ -170,6 +177,11 @@
         height: 13%;
         padding: 0 20px;
     }
+
+    .content a.back{ 
+        margin-top: 70px;
+    }
+    
 }
 
 @media (min-width:451px) and (max-width: 767px) {
@@ -245,7 +257,7 @@
 }
 
 
-@media (min-width:992px) and (max-width: 1250px) {
+@media (min-width:992px) and (max-width: 1500px) {
 
 .img-pt img{
     width: 90%;
@@ -272,6 +284,5 @@
     padding-right: 10px;  
 }
 }
-
 /* 
 */
