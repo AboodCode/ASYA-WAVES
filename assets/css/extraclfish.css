@@ -103,7 +103,8 @@
     .all{
         padding-top: 10px;
         flex-direction: column-reverse;
-        height: 90vh;
+        height: auto;
+        padding: 10px;
         padding-bottom: 15px;
     }
     
@@ -126,6 +127,7 @@
     
     .S-content h1{
         align-items: center;
+        padding-bottom: 20px;
     }    
     
     .S-content p{
