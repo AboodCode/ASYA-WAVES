@@ -253,19 +253,24 @@
     }  
 }
 
-@media (min-width:992px) and (max-width: 1550px) {
+@media (min-width:992px) and (max-width: 1600px) {
 
 .img-pt img{
     width: 90%;
 }
 
+.content{
+    height: auto;
+    
+}
+
 .content p{
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.2;
 }
 
 .content h1{
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .content a.go{
